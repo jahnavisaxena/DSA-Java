@@ -46,6 +46,18 @@ public class Exercise_4 {
             }
         }
     }
+    //question7
+    static void array7(){
+        int index=3;
+        int []a={32,34,56,77,9};
+        for(int i=index;i<a.length-1;i++){
+            a[i]=a[i+1];
+        }
+        System.out.println("new array: ");
+        for(int element:a){
+            System.out.println(element);
+        }
+    }
    
     public static void main(String[] args) {
         array1();
