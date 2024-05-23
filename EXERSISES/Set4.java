@@ -66,6 +66,17 @@ public class Exercise_4 {
             System.out.printf("%d, ",a[i]);
         }
     }
+    //question9
+    static void array9(){
+        int []a={2,4,5,2,7,8,8,65,43,65};
+        for(int i=0;i<a.length-1;i++){
+            for(int j=i+1;j<a.length;j++){
+                if(a[i]==a[j]&& (i!=j)){
+                    System.out.println("\nDuplicate: "+a[j]);
+                }
+            }
+        }
+    }
    
     public static void main(String[] args) {
         array1();
