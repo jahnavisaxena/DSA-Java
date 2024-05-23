@@ -58,6 +58,14 @@ public class Exercise_4 {
             System.out.println(element);
         }
     }
+    //question8
+    static void array8(){
+        int []a={45,67,22,33,44,12,98};
+        System.out.println(" Reversed Array: ");
+        for(int i=a.length-1;i>=0;i--){
+            System.out.printf("%d, ",a[i]);
+        }
+    }
    
     public static void main(String[] args) {
         array1();
