@@ -6,7 +6,7 @@ public class minSumSun {
         int min = Integer.MAX_VALUE;
         for(int i=0;i<a1.length;i++)
         {
-            for(int j=1;j<a1.length;j++)
+            for(int j=i;j<a1.length;j++)
             {
                 sum = 0;
                 for(int k=i;k<=j;k++)
