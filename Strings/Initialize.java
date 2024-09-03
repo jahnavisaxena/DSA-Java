@@ -1,7 +1,7 @@
 import java.util.*;
-public class intialize {
+public class intro {
     public static void main(String[] args) {
-        char ch[] = {'a','b','c','d'};
-        String str = "abcd";
+        String st = "hello";
+        System.out.println(st);
     }
 }
