@@ -8,7 +8,7 @@ public class halfPyramid {
             {
                 System.out.print(num);
             }
-            System.out.println();
+            System.out.println(" ");
         }
     }
 }
